@@ -1,0 +1,137 @@
+﻿* {
+    background-color: #212121;
+    color: white;
+}
+
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+    font-weight: lighter;
+}
+.page {
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+.nom {
+
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.contactbonj {
+
+    display:flex;
+    justify-content: center;
+    align-content:space-between;
+    padding-bottom: 70px;
+}
+.infosgauche {
+
+    text-align: right;
+    padding-right: 35px;
+    border-right: dotted 2px;
+}
+
+.infodroite {
+
+    
+    text-align:left;
+    padding-left:35px;
+}
+
+.logo1 {
+
+    padding-left: 38px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Deux {
+
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding-bottom: 70px;
+    padding-left: 40px;
+}
+li {
+
+    list-style-type:none;
+}
+
+li:after {
+    content:"•";
+    padding-left: 20px;
+}
+.gauche1 {
+
+    text-align: right;
+    padding-right: 35px;
+    border-right: dotted 2px;
+}
+
+.droite1 {
+
+    text-align: left;
+    padding-left: 35px;
+
+
+}
+
+.logo2 {
+
+    padding-left: 38px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Trois {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-left: 70px;
+}
+
+.langues {
+    text-align: right;
+    padding-right: 35px;
+    border-right: dotted 2px;
+
+}
+
+.qualites {
+    text-align: center;
+    padding-right: 35px;
+    padding-left:35px;
+    border-right: dotted 2px;
+}
+.competences {
+    text-align: left;
+    padding-right: 35px;
+    padding-left: 35px;
+
+}
